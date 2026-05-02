@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Freelance Budget</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to Freelance Budget</string>
+    <string name="btn_start">Start</string>
+
+    <!-- Activity 1 -->
+    <string name="title_main">Freelance Budget</string>
+    <string name="label_project_name">Project name</string>
+    <string name="hint_project_name">Enter project name</string>
+    <string name="label_hourly_rate">Hourly rate ($)</string>
+    <string name="hint_hourly_rate">Enter hourly rate</string>
+    <string name="label_complexity">Complexity</string>
+    <string name="option_low">Low (x1)</string>
+    <string name="option_medium">Medium (x1.5)</string>
+    <string name="option_high">High (x2)</string>
+    <string name="label_urgent">Urgent project (+30%)</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <!-- Activity 2 -->
+    <string name="title_result">Budget Result</string>
+    <string name="label_project_result">Project: %1$s</string>
+    <string name="label_multiplier_result">Complexity multiplier: x%1$.1f</string>
+    <string name="label_total_result">Total: $%1$.2f</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Errors -->
+    <string name="error_empty_rate">Please enter an hourly rate</string>
+    <string name="error_invalid_rate">Hourly rate must be greater than 0</string>
+
+</resources>
+
