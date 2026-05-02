@@ -118,7 +118,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--SWITCH DARK MODE -->
+       
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/switchTheme"
             android:layout_width="wrap_content"
