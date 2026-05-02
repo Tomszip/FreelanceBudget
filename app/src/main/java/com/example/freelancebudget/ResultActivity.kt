@@ -19,7 +19,7 @@ class ResultActivity : AppCompatActivity() {
         val multiplier  = intent.getDoubleExtra("MULTIPLIER", 1.0)
         val total       = intent.getDoubleExtra("TOTAL", 0.0)
 
-        // ✅ USO CORRECTO DE STRINGS CON FORMATO
+        // Uso correcto de strings con formato
         binding.tvProjectNameResult.text =
             getString(R.string.label_project_result, projectName)
 
